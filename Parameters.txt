@@ -1,0 +1,42 @@
+# Population size
+PopulationSize = 1000
+
+# Number of generations
+GenerationsNumber = 1000
+
+# Termination condition for the evolutionary algorithm:
+# 1: GenNumber is interpreted as the number of generations for the algorithm
+# 2: GenNumber is interpreted as the maximum number of generations allowed without change in the fitness of the best individual
+TerminationConditionType = 1
+
+# Type of parent selection (method of constructing the mating pool):
+# 1: Fitness-proportional selection
+# 2: Roulette
+# 3: Tournament selection
+ParentSelectionType = 3
+
+# Tournament size (as % of population).
+TournamentSize = 80
+
+# Type of crossover:
+# 1: One-point crossover
+# 2: Two-point crossover
+CrossoverType = 2
+
+# Crossover rate
+CrossoverRate = 0.85
+
+# Number of crossover points (just in case of N-point crossover). Range: [1,GenesNumber-1]
+CrossoverPointsNumber = 1
+
+# Type of mutation: SE PUEDEN ENCONTRAR EN EIBEN PG 45 A 47
+# 1: Swap Mutation
+# 2: insert mutation
+MutationType = 1
+
+# Mutation rate
+MutationRate = 0.8
+
+# Elistism (just in case of generational model for survivor selection)
+# As a percentage of parents to next generation [0..1]
+Elitism = 0.5
