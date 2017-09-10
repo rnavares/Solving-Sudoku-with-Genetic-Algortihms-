@@ -106,7 +106,7 @@ if the fitness of the best individual has not change in 200 generations.
 ## 4. Code Diagram
 
 <p align="center">
-<img height="500" src="https://github.com/rnavares/Solving-Sudoku-with-Genetic-Algortihms-/blob/master/Figures/Figura6.jpg">
+<img height="500" src="https://github.com/rnavares/Solving-Sudoku-with-Genetic-Algortihms-/blob/master/Figures/Figura9.jpg">
 </p>
 
 ### Prerequisites
