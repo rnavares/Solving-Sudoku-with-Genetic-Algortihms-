@@ -2,7 +2,7 @@
 
 C++11 genetic algorithm implementation which solves Sudokus  
 
-## Sudoku Representation
+## 1. Sudoku Representation
 
 Since the well-known game consists on filling the board with integers
 from 1 to 9, it is not necessary to use the most common binary representation
@@ -27,7 +27,7 @@ become:
 </p>
 
 
-## Genetic Operators
+## 2. Genetic Operators
 
 ### Crossover
 
@@ -91,14 +91,17 @@ if the fitness of the best individual has not change in 200 generations.
 <img height="300" src="https://github.com/rnavares/Solving-Sudoku-with-Genetic-Algortihms-/blob/master/Figures/algo2.png">
 </p>
 
-### Puting all together
+### Putting all together
 
 <p align="center">
 <img height="500" src="https://github.com/rnavares/Solving-Sudoku-with-Genetic-Algortihms-/blob/master/Figures/Figura5.jpg">
 </p>
 
+## 3. Parameters tested
 
-
+<p align="center">
+<img height="400" src="https://github.com/rnavares/Solving-Sudoku-with-Genetic-Algortihms-/blob/master/Figures/tab.png">
+</p>
 
 
 ## Getting Started
