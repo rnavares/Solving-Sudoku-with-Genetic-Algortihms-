@@ -26,6 +26,7 @@ become:
 <img height="200" src="https://github.com/rnavares/Solving-Sudoku-with-Genetic-Algortihms-/blob/master/Figures/Figura2.jpg">
 </p>
 
+
 ## Genetic Operators
 
 ### Crossover
