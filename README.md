@@ -46,6 +46,14 @@ a two-point crossover:
 <img height="400" src="https://github.com/rnavares/Solving-Sudoku-with-Genetic-Algortihms-/blob/master/Figures/Figura4.jpg">
 </p>
 
+### Mutation
+
+Swap and Insert mutation was implemented as described in [1]
+
+### Selection
+
+Selection implementation was based on [2]. On each generation towo populations are
+generated
 
 ## Getting Started
 
@@ -91,3 +99,7 @@ sh perl wrapper.pl
 
 Go to guide.pdf to check the results and licences 
 
+## Reference
+
+[1] A.E. Eiben "Introduction to evolutionary computing". Springer. DOI: 10.1007/978-3-662-05094-1
+[2] K.N. Das, S. Bhatia, S. Puri and K. Deep. "A retrievable GA for solving Sudoku puzzles"
