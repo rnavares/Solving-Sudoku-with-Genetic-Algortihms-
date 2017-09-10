@@ -103,52 +103,45 @@ if the fitness of the best individual has not change in 200 generations.
 <img height="400" src="https://github.com/rnavares/Solving-Sudoku-with-Genetic-Algortihms-/blob/master/Figures/tab.png">
 </p>
 
+## 4. Code Diagram
 
-## Getting Started
-
-A Perl5 wrapper to Lingua-EN-Tagger and Tree-Tagger 
+<p align="center">
+<img height="500" src="https://github.com/rnavares/Solving-Sudoku-with-Genetic-Algortihms-/blob/master/Figures/Figura6.jpg">
+</p>
 
 ### Prerequisites
+```
+GNU GCC C++11 ISO C++ 
+```
+## Inputs
 
-Perl is a high-level programming language that comes installed by default in Linux.
+Input file with the parameters of the genetic algorithm
 
 ```
-sh sudo cpan
-cpan[1]> upgrade
+Parameters.txt
 ```
 
-or 
+A Sudoku initial state
 
 ```
-sh sudo perl -MCPAN -e 'upgrade'
-```
-
-
-Install the Tree-Tagger, also available in http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/
-
-```
-sh install-tagger.sh
-```
-
-Install Lingua-EN-Tagger, also available in http://search.cpan.org/dist/Lingua-EN-Tagger/Tagger.pm
-
-```
-sh cpan Lingua::EN::Tagger
+Sudoku_Sample.txt
 ```
 
 
-## Running the wrapper
+### Execution
+
+Run the main program
 
 ```
-sh sudo chmod +x wrapper.pl
-sh perl wrapper.pl
+sh ./main
 ```
 
-### Results
+which shows in console 3 options: (1) to test the parameters and
+the resutls are provided in a csv file. (2) run 10 executions
+of the algorithm to obtain the success rates using 1000 generations.
+(3) solve the sudoku outputting "solution.txt"
 
-Go to guide.pdf to check the results and licences 
-
-## Reference
+## References
 
 [1] A.E. Eiben "Introduction to evolutionary computing". Springer. DOI: 10.1007/978-3-662-05094-1
 [2] K.N. Das, S. Bhatia, S. Puri and K. Deep. "A retrievable GA for solving Sudoku puzzles"
