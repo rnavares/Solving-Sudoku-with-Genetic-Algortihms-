@@ -12,9 +12,9 @@ each individual in the population is represented by a 9x9 matrix or a board.
 In order ti initialize each individual in the population, we start with the
 initial board (Sudoku_Sample.txt) and an empty board:
 
-<br>
-<img height="200" src="https://github.com/rnavares/Solving-Sudoku-with-Genetic-Algortihms-/blob/master/Figures/Figura1.jpg">
-<br>
+<p align="center">
+<img height="300" src="https://github.com/rnavares/Solving-Sudoku-with-Genetic-Algortihms-/blob/master/Figures/Figura1.jpg">
+</p>
 
 Since it is known that each row must have numbers from 1 to 9, we randomly
 generate sequences to initialize al the board row wise (it can be also done
@@ -22,9 +22,10 @@ column wise) and fit the in the board. Then we readjust the members if applies t
 fit the initial board. For instance, the first row of the previous figure will 
 become:
 
-<br>
-<img height="200" src="https://github.com/rnavares/Solving-Sudoku-with-Genetic-Algortihms-/blob/master/Figures/Figura2.jpg">
-<br>
+<p align="center">
+<img height="400" src="https://github.com/rnavares/Solving-Sudoku-with-Genetic-Algortihms-/blob/master/Figures/Figura2.jpg">
+</p>
+
 
 
 
