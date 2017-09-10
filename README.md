@@ -26,7 +26,25 @@ become:
 <img height="400" src="https://github.com/rnavares/Solving-Sudoku-with-Genetic-Algortihms-/blob/master/Figures/Figura2.jpg">
 </p>
 
+## Genetic Operators
 
+### Crossover
+
+A one and two-point crossover operator was implemented. This is implemented by
+taking to individual candidates as parents and exchange their rows using as
+a reference a random crossover point (point_CO). 
+
+A 1-point crossover:
+
+<p align="center">
+<img height="400" src="https://github.com/rnavares/Solving-Sudoku-with-Genetic-Algortihms-/blob/master/Figures/Figura3.jpg">
+</p>
+
+a two-point crossover:
+
+<p align="center">
+<img height="400" src="https://github.com/rnavares/Solving-Sudoku-with-Genetic-Algortihms-/blob/master/Figures/Figura4.jpg">
+</p>
 
 
 ## Getting Started
