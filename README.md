@@ -69,14 +69,14 @@ in their rows, columns and boxes (3x3). Thus, the fitnes function is defined by
 counting the number of unique members:
 
 <p align="center">
-<img height="400" src="https://github.com/rnavares/Solving-Sudoku-with-Genetic-Algortihms-/blob/master/Figures/fitness0.png">
+<img height="200" src="https://github.com/rnavares/Solving-Sudoku-with-Genetic-Algortihms-/blob/master/Figures/fitness0.png">
 </p>
 
 the for each row, column and box we substract the number of unique members
 to 9 Having a fitness equal to 0 the Sudoku solved:
 
 <p align="center">
-<img height="400" src="https://github.com/rnavares/Solving-Sudoku-with-Genetic-Algortihms-/blob/master/Figures/fitness.png">
+<img height="200" src="https://github.com/rnavares/Solving-Sudoku-with-Genetic-Algortihms-/blob/master/Figures/fitness.png">
 </p>
 
 ### Parameter control
@@ -144,4 +144,5 @@ of the algorithm to obtain the success rates using 1000 generations.
 ## References
 
 [1] A.E. Eiben "Introduction to evolutionary computing". Springer. DOI: 10.1007/978-3-662-05094-1
+
 [2] K.N. Das, S. Bhatia, S. Puri and K. Deep. "A retrievable GA for solving Sudoku puzzles"
