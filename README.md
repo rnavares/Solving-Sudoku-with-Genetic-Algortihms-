@@ -21,6 +21,9 @@ or
 sh sudo perl -MCPAN -e 'upgrade'
 ```
 
+<br>
+<img height="200" src="https://github.com/rnavares/Solving-Sudoku-with-Genetic-Algortihms-/blob/master/Figures/Figura1.jpg">
+<br>
 
 Install the Tree-Tagger, also available in http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/
 
