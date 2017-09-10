@@ -1,6 +1,32 @@
 # Solving Sudoku with Genetic Algorithms
 
-A comparison of Part-of-Speech statistical taggers based on HMM over bigrams and binary decision trees. 
+C++11 genetic algorithm implementation which solves Sudokus  
+
+## Sudoku Representation
+
+Since the well-known game consists on filling the board with integers
+from 1 to 9, it is not necessary to use the most common binary representation
+for genetic algorithms. Instead, the algorithm works directly with integers and
+each individual in the population is represented by a 9x9 matrix or a board. 
+
+In order ti initialize each individual in the population, we start with the
+initial board (Sudoku_Sample.txt) and an empty board:
+
+<br>
+<img height="200" src="https://github.com/rnavares/Solving-Sudoku-with-Genetic-Algortihms-/blob/master/Figures/Figura1.jpg">
+<br>
+
+Since it is known that each row must have numbers from 1 to 9, we randomly
+generate sequences to initialize al the board row wise (it can be also done
+column wise) and fit the in the board. Then we readjust the members if applies to
+fit the initial board. For instance, the first row of the previous figure will 
+become:
+
+<br>
+<img height="200" src="https://github.com/rnavares/Solving-Sudoku-with-Genetic-Algortihms-/blob/master/Figures/Figura2.jpg">
+<br>
+
+
 
 ## Getting Started
 
@@ -21,9 +47,6 @@ or
 sh sudo perl -MCPAN -e 'upgrade'
 ```
 
-<br>
-<img height="200" src="https://github.com/rnavares/Solving-Sudoku-with-Genetic-Algortihms-/blob/master/Figures/Figura1.jpg">
-<br>
 
 Install the Tree-Tagger, also available in http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/
 
