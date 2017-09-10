@@ -55,6 +55,10 @@ Swap and Insert mutation was implemented as described in [1]
 Selection implementation was based on [2]. On each generation towo populations are
 generated
 
+<p align="center">
+<img height="400" src="https://github.com/rnavares/Solving-Sudoku-with-Genetic-Algortihms-/blob/master/Figures/algorithm.png">
+</p>
+
 ## Getting Started
 
 A Perl5 wrapper to Lingua-EN-Tagger and Tree-Tagger 
