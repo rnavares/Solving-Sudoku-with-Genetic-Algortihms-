@@ -66,7 +66,40 @@ individuals from each \mu and \lambda population to keep diversity:
 
 Fitness function consits on penalizing those individuals with repeated elements
 in their rows, columns and boxes (3x3). Thus, the fitnes function is defined by 
-counting the number of unique members and substract it to 9.
+counting the number of unique members:
+
+<p align="center">
+<img height="300" src="https://github.com/rnavares/Solving-Sudoku-with-Genetic-Algortihms-/blob/master/Figures/fitness0.png">
+</p>
+
+the for each row, column and box we substract the number of unique members
+to 9 Having a fitness equal to 0 the Sudoku solved:
+
+<p align="center">
+<img height="300" src="https://github.com/rnavares/Solving-Sudoku-with-Genetic-Algortihms-/blob/master/Figures/fitness.png">
+</p>
+
+### Parameter control
+
+Two parameter control were implemented over the mutation operator. The first
+one consists on incrementing the mutation probability if the fitness of the 
+best individual has not change in 50 generations. The second is a selective
+mutation which selects which rows to mutate (instead of randomly selection)
+if the fitness of the best individual has not change in 200 generations. 
+
+<p align="center">
+<img height="300" src="https://github.com/rnavares/Solving-Sudoku-with-Genetic-Algortihms-/blob/master/Figures/algo2.png">
+</p>
+
+### Puting all together
+
+<p align="center">
+<img height="400" src="https://github.com/rnavares/Solving-Sudoku-with-Genetic-Algortihms-/blob/master/Figures/Figura5.jpg">
+</p>
+
+
+
+
 
 ## Getting Started
 
